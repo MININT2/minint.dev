@@ -1,0 +1,22 @@
+{
+  "name": "minint.dev",
+  "version": "1.0.0",
+  "description": "rework with better tooling",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MININT2/minint.dev.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MININT2/minint.dev/issues"
+  },
+  "homepage": "https://github.com/MININT2/minint.dev#readme"
+}
