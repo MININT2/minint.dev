@@ -12,3 +12,6 @@ let hardcoded: string[] = ["(●ㅅ● )", "( ✧×✧)", "(ㅇㅅㅇ❀)", "(�
 let random = Math.floor(Math.random() * hardcoded.length);
 let titleElement = document.getElementById('title');
 if (titleElement) titleElement.innerHTML = hardcoded[random] || " ";
+
+//minty-generator is supposed to pull strings to make a cat
+//and set the page title to a newly generated cat periodically
