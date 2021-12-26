@@ -15,3 +15,4 @@ if (titleElement) titleElement.innerHTML = hardcoded[random] || " ";
 
 //minty-generator is supposed to pull strings to make a cat
 //and set the page title to a newly generated cat periodically
+//yes, i do want cute cats to adorn your browser bar
