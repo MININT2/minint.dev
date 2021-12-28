@@ -57,10 +57,11 @@ let hardcoded: string[] = [
 "✧-✧"
 ];
 //pull hardcoded minty's for now until mintyconstructor is finished
-let random = Math.floor(Math.random() * (hardcoded.length / 2));
+let random = Math.floor(Math.random() * hardcoded.length);
 let titleElement = document.getElementById('title');
-const dna = hardcoded[0 + (random * 2)];
-if (titleElement) document.title = escapeUnicode(dna, 0, dna.length);
+let dna = hardcoded[random];
+let rna = escapeUnicode(dna, 0, dna.length);
+if (titleElement) document.title = rna;
 //minty-generator is supposed to pull strings to make a cat
 //and set the page title to a newly generated cat periodically
 //yes, i do want cute cats to adorn your browser bar

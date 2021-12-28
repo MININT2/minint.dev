@@ -56,8 +56,9 @@ var hardcoded = [
     "✧-✧"
 ];
 //pull hardcoded minty's for now until mintyconstructor is finished
-var random = Math.floor(Math.random() * (hardcoded.length / 2));
+var random = Math.floor(Math.random() * hardcoded.length);
 var titleElement = document.getElementById('title');
-var dna = hardcoded[0 + (random * 2)];
+var dna = hardcoded[random];
+var rna = escapeUnicode(dna, 0, dna.length);
 if (titleElement)
-    document.title = escapeUnicode(dna, 0, dna.length);
+    document.title = rna;
