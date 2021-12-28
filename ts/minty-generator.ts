@@ -8,7 +8,7 @@ function parse(ch) {
     	toHexDigit(code & 15);
 }
 function toHexDigit(nibble) {
-  return hexDigits[nibble & 15];
+  	return hexDigits[nibble & 15];
 }
 function escapeUnicode(input, start, end) {
 	if (input == null) {
@@ -61,7 +61,7 @@ let random = Math.floor(Math.random() * hardcoded.length);
 let titleElement = document.getElementById('title');
 let dna = hardcoded[random];
 let rna = escapeUnicode(dna, 0, dna.length);
-if (titleElement) document.title = rna;
+if (titleElement) document.title = rna.replace("\\\\", "\\");
 //minty-generator is supposed to pull strings to make a cat
 //and set the page title to a newly generated cat periodically
 //yes, i do want cute cats to adorn your browser bar

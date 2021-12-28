@@ -61,4 +61,4 @@ var titleElement = document.getElementById('title');
 var dna = hardcoded[random];
 var rna = escapeUnicode(dna, 0, dna.length);
 if (titleElement)
-    document.title = rna;
+    document.title = rna.replace("\\\\", "\\");
