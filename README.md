@@ -9,3 +9,6 @@
     <h3>create navbar and footer</h3>
         <p>partially transparent, sticks to top</p>
         <p>attempt svg graphics and animation</p>
+    <h3>link to existing server services</h3>
+        <p>seamlessly integrate into the minint ecosystem</p>
+    <h3>work on global chat dapp</h3>
