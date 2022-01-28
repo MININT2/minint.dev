@@ -1,16 +1,23 @@
 #snackbar {
-  height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  height: 100%;
 }
 
 #snackbar img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  height: 720px;
+  width: 1024px;
+  -ms-interpolation-mode: nearest-neighbor;
+      image-rendering: -webkit-optimize-contrast;
+      image-rendering: -moz-crisp-edges;
+      image-rendering: -o-pixelated;
+      image-rendering: pixelated;
 }
 /*# sourceMappingURL=snackbar.css.map */
