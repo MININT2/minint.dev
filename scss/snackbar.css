@@ -1,0 +1,16 @@
+#snackbar {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#snackbar img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*# sourceMappingURL=snackbar.css.map */

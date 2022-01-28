@@ -1,33 +1,41 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="utf-8"/>
         <title id='title'></title>
-        <link rel="icon" type="image/png" sizes="16x16" href="/resources/favicon/favicon16.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="/resources/favicon/favicon32.png">
-        <link rel="icon" type="image/png" sizes="64x64" href="/resources/favicon/favicon64.png">
-        <link rel="icon" type="image/png" sizes="128x128" href="/resources/favicon/favicon128.png">
-        <link rel="icon" type="image/png" sizes="256x256" href="/resources/favicon/favicon256.png">
-        <link rel="icon" type="image/png" sizes="512x512" href="/resources/favicon/favicon512.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/resources/favicon/favicon16.png"/>
+        <link rel="icon" type="image/png" sizes="32x32" href="/resources/favicon/favicon32.png"/>
+        <link rel="icon" type="image/png" sizes="64x64" href="/resources/favicon/favicon64.png"/>
+        <link rel="icon" type="image/png" sizes="128x128" href="/resources/favicon/favicon128.png"/>
+        <link rel="icon" type="image/png" sizes="256x256" href="/resources/favicon/favicon256.png"/>
+        <link rel="icon" type="image/png" sizes="512x512" href="/resources/favicon/favicon512.png"/>
         <link rel="stylesheet" type="text/css" href="/scss/index.css"/>
         <script src="/js/lib/snap.svg-min.js"></script>
+        <script src="/js/lib/jquery-min.js"></script>
+        <link rel="preload" href="/resources/loading.gif" as="image"/>
+        <link rel="stylesheet" type="text/css" href="/scss/loading.css"/>
+        <script src="/js/loading.js"></script>
     </head>
-    <body> 
+    <body>
         <script type="text/javascript" src="/ts/minty-generator.js"></script>
         <script type="text/javascript" src="/js/index.js"></script>
+        <div id="loading"></div>
         <div id="navbar">
-            <ul>
+            <ul class="default">
                 <li><a href="/html/index.html">�</a></li>
                 <li class="dropdown">
                     <a href="javascript:void(0)" class="dropbtn">メディア</a>
                     <div class="dropdown-content">
-                        <a href="">アート (Art)</a>
-                        <a href="">おんがく (Music)</a>
+                        <a href="">アート⠀ ⠀(Art)</a>
+                        <a href="">おんがく⠀(Music)</a>
                     </div>
                 </li>
             </ul>
         </div>
-        <p>Under Construction</p>
-        <p>Sorry! Come back another time!</p>
+        <link rel="stylesheet" type="text/css" href="/scss/snackbar.css"/>
+        <div id="snackbar">
+            <img src="/resources/toast-box.png">
+        </div>
     </body>
     <div id="background">
         <canvas id="glCanvas"></canvas>
