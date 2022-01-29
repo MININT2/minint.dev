@@ -1,1 +1,1 @@
-//this handles the client's state and interactions with the site and server
+//this will handle the client's state and interactions with the minint.dev services
