@@ -11,7 +11,7 @@ function main() {
     }
     resizeCanvasToDisplaySize(gl.canvas);
     gl.viewport(0, 0, gl.canvas.width, gl.canvas.height);
-    //set clear color to #3b6dcb, fully opaque
+    //set clear color to #3c6dc7, fully opaque
     gl.clearColor(0.231, 0.427, 0.796, 1.0);
     //clear the color buffer with specified clear color
     gl.clear(gl.COLOR_BUFFER_BIT);
