@@ -1,4 +1,3 @@
-//test gitignore
 'use strict';
 const hexDigits = '0123456789abcdef'.split('');
 function parse(ch) {
