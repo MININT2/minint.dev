@@ -29,7 +29,7 @@ html {
                 margin: 0;
                 padding: 0;
                 overflow: hidden;
-                background-color: #372c51;
+                background-color: #2a2540;
                 li {
                     float: left;
                     cursor: default;
@@ -43,7 +43,7 @@ html {
                 }
                 li a:hover, .dropdown:hover .dropbtn {
                     background-color: #7b4c7d;
-                    color:#ffffff
+                    color:#cccccc
                 }  
                 li.dropdown {
                     display: inline-block;

@@ -40,7 +40,7 @@ html body #navbar ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #372c51;
+  background-color: #2a2540;
 }
 
 html body #navbar ul li {
@@ -58,7 +58,7 @@ html body #navbar ul li a, html body #navbar ul .dropbtn {
 
 html body #navbar ul li a:hover, html body #navbar ul .dropdown:hover .dropbtn {
   background-color: #7b4c7d;
-  color: #ffffff;
+  color: #cccccc;
 }
 
 html body #navbar ul li.dropdown {
