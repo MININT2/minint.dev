@@ -29,20 +29,21 @@ html {
                 margin: 0;
                 padding: 0;
                 overflow: hidden;
-                background-color: #111111;
+                background-color: #372c51;
                 li {
                     float: left;
                     cursor: default;
                 }
                 li a, .dropbtn {
                     display: inline-block;
-                    color: #ffffff;
+                    color: #5a80a7;
                     text-align: center;
                     padding: 14px 16px;
                     text-decoration: none;
                 }
                 li a:hover, .dropdown:hover .dropbtn {
-                    background-color: #d155be;
+                    background-color: #7b4c7d;
+                    color:#ffffff
                 }  
                 li.dropdown {
                     display: inline-block;
@@ -50,7 +51,7 @@ html {
                 .dropdown-content {
                     display: none;
                     position: absolute;
-                    background-color: #d155be;
+                    background-color: #7b4c7d;
                     min-width: 160px;
                     z-index: 1;
                 }  
@@ -62,7 +63,7 @@ html {
                     text-align: left;
                 }  
                 .dropdown-content a:hover {
-                    background-color: #d455f9;
+                    background-color: #b07994;
                 }              
                 .dropdown:hover .dropdown-content {
                     display: block;

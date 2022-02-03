@@ -40,7 +40,7 @@ html body #navbar ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #111111;
+  background-color: #372c51;
 }
 
 html body #navbar ul li {
@@ -50,14 +50,15 @@ html body #navbar ul li {
 
 html body #navbar ul li a, html body #navbar ul .dropbtn {
   display: inline-block;
-  color: #ffffff;
+  color: #5a80a7;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
 html body #navbar ul li a:hover, html body #navbar ul .dropdown:hover .dropbtn {
-  background-color: #d155be;
+  background-color: #7b4c7d;
+  color: #ffffff;
 }
 
 html body #navbar ul li.dropdown {
@@ -67,7 +68,7 @@ html body #navbar ul li.dropdown {
 html body #navbar ul .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #d155be;
+  background-color: #7b4c7d;
   min-width: 160px;
   z-index: 1;
 }
@@ -81,7 +82,7 @@ html body #navbar ul .dropdown-content a {
 }
 
 html body #navbar ul .dropdown-content a:hover {
-  background-color: #d455f9;
+  background-color: #b07994;
 }
 
 html body #navbar ul .dropdown:hover .dropdown-content {
