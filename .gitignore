@@ -1,6 +1,6 @@
 .DS_Store
 node_modules
-/build
+/minint.dev
 /.svelte-kit
 /package
 .env
